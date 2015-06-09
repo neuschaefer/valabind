@@ -1,0 +1,7 @@
+language: c     # TODO: change to "vala" once it's available
+
+install:
+  - apt-get install valac libvala-dev
+
+build:
+  - make
